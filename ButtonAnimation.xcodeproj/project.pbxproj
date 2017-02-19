@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F28FB031E599E25002923C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F28FB021E599E25002923C3 /* AppDelegate.swift */; };
+		5F28FB051E599E25002923C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F28FB041E599E25002923C3 /* ViewController.swift */; };
+		5F28FB0A1E599E25002923C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F28FB091E599E25002923C3 /* Assets.xcassets */; };
+		5F28FB0D1E599E25002923C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F28FB0B1E599E25002923C3 /* LaunchScreen.storyboard */; };
+		5F28FB151E599F7C002923C3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F28FB141E599F7C002923C3 /* ViewController.xib */; };
+		5F28FB171E59CD3B002923C3 /* FillableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F28FB161E59CD3B002923C3 /* FillableView.swift */; };
+		5F28FB191E59CE28002923C3 /* FillableViewButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F28FB181E59CE28002923C3 /* FillableViewButton.xib */; };
+		5F28FB1B1E59D0FA002923C3 /* FillableViewSwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F28FB1A1E59D0FA002923C3 /* FillableViewSwitch.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F28FAFF1E599E25002923C3 /* ButtonAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F28FB021E599E25002923C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F28FB041E599E25002923C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F28FB091E599E25002923C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F28FB0C1E599E25002923C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F28FB0E1E599E25002923C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F28FB141E599F7C002923C3 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		5F28FB161E59CD3B002923C3 /* FillableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillableView.swift; sourceTree = "<group>"; };
+		5F28FB181E59CE28002923C3 /* FillableViewButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FillableViewButton.xib; sourceTree = "<group>"; };
+		5F28FB1A1E59D0FA002923C3 /* FillableViewSwitch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FillableViewSwitch.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F28FAFC1E599E25002923C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F28FAF61E599E24002923C3 = {
+			isa = PBXGroup;
+			children = (
+				5F28FB011E599E25002923C3 /* ButtonAnimation */,
+				5F28FB001E599E25002923C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F28FB001E599E25002923C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F28FAFF1E599E25002923C3 /* ButtonAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F28FB011E599E25002923C3 /* ButtonAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				5F28FB021E599E25002923C3 /* AppDelegate.swift */,
+				5F28FB041E599E25002923C3 /* ViewController.swift */,
+				5F28FB091E599E25002923C3 /* Assets.xcassets */,
+				5F28FB0B1E599E25002923C3 /* LaunchScreen.storyboard */,
+				5F28FB0E1E599E25002923C3 /* Info.plist */,
+				5F28FB141E599F7C002923C3 /* ViewController.xib */,
+				5F28FB161E59CD3B002923C3 /* FillableView.swift */,
+				5F28FB181E59CE28002923C3 /* FillableViewButton.xib */,
+				5F28FB1A1E59D0FA002923C3 /* FillableViewSwitch.xib */,
+			);
+			path = ButtonAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F28FAFE1E599E25002923C3 /* ButtonAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F28FB111E599E25002923C3 /* Build configuration list for PBXNativeTarget "ButtonAnimation" */;
+			buildPhases = (
+				5F28FAFB1E599E25002923C3 /* Sources */,
+				5F28FAFC1E599E25002923C3 /* Frameworks */,
+				5F28FAFD1E599E25002923C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonAnimation;
+			productName = ButtonAnimation;
+			productReference = 5F28FAFF1E599E25002923C3 /* ButtonAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F28FAF71E599E25002923C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mindaugas Jucius";
+				TargetAttributes = {
+					5F28FAFE1E599E25002923C3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7XWNFZ55T2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5F28FAFA1E599E25002923C3 /* Build configuration list for PBXProject "ButtonAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F28FAF61E599E24002923C3;
+			productRefGroup = 5F28FB001E599E25002923C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F28FAFE1E599E25002923C3 /* ButtonAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F28FAFD1E599E25002923C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F28FB0D1E599E25002923C3 /* LaunchScreen.storyboard in Resources */,
+				5F28FB191E59CE28002923C3 /* FillableViewButton.xib in Resources */,
+				5F28FB1B1E59D0FA002923C3 /* FillableViewSwitch.xib in Resources */,
+				5F28FB151E599F7C002923C3 /* ViewController.xib in Resources */,
+				5F28FB0A1E599E25002923C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F28FAFB1E599E25002923C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F28FB171E59CD3B002923C3 /* FillableView.swift in Sources */,
+				5F28FB051E599E25002923C3 /* ViewController.swift in Sources */,
+				5F28FB031E599E25002923C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F28FB0B1E599E25002923C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F28FB0C1E599E25002923C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F28FB0F1E599E25002923C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F28FB101E599E25002923C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F28FB121E599E25002923C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7XWNFZ55T2;
+				INFOPLIST_FILE = ButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mindaugas.ButtonAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F28FB131E599E25002923C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7XWNFZ55T2;
+				INFOPLIST_FILE = ButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mindaugas.ButtonAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F28FAFA1E599E25002923C3 /* Build configuration list for PBXProject "ButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F28FB0F1E599E25002923C3 /* Debug */,
+				5F28FB101E599E25002923C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F28FB111E599E25002923C3 /* Build configuration list for PBXNativeTarget "ButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F28FB121E599E25002923C3 /* Debug */,
+				5F28FB131E599E25002923C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F28FAF71E599E25002923C3 /* Project object */;
+}

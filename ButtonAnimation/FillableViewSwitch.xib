@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FillableView" customModule="ButtonAnimation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3E9-wO-TIF">
+                    <rect key="frame" x="166.5" y="323" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yhs-bJ-iKp">
+                    <rect key="frame" x="296" y="318" width="51" height="31"/>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="yhs-bJ-iKp" secondAttribute="trailing" constant="30" id="9Ts-YM-NpK"/>
+                <constraint firstItem="3E9-wO-TIF" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Nmb-D3-kOI"/>
+                <constraint firstItem="yhs-bJ-iKp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="3E9-wO-TIF" secondAttribute="trailing" constant="15" id="X95-jJ-f85"/>
+                <constraint firstItem="yhs-bJ-iKp" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ihd-HW-QWF"/>
+                <constraint firstItem="3E9-wO-TIF" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="kmt-04-Hth"/>
+            </constraints>
+            <connections>
+                <outlet property="fillSwitch" destination="yhs-bJ-iKp" id="Yf8-HZ-LnB"/>
+                <outlet property="label" destination="3E9-wO-TIF" id="3uE-zf-l0y"/>
+            </connections>
+        </view>
+    </objects>
+</document>
